@@ -134,7 +134,7 @@ class DefaultFotter extends StatelessWidget {
               style: TextStyle(
                   fontSize: 13,
                   fontWeight: FontWeight.bold,
-                  color: Color(0xff00BED6)),
+                  color: primarycolor),
             ),
             Text(
               "استخدامك لهذا التطبيق تعني قبولك",

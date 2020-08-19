@@ -63,7 +63,7 @@ class SigninState extends State<Signin> {
                         child: Column(
                           children: [
                             Text(
-                              "مرحبا بك في عرباوى",
+                              "مرحبا بك",
                               style: TextStyle(
                                   fontSize: 24,
                                   letterSpacing: 8,

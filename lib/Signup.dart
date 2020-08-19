@@ -402,7 +402,7 @@ class SignupdState extends State<Signupd> {
                                     child: Container(
                                       decoration: BoxDecoration(
                                         color: Gender
-                                            ? Color(0xff00BED6)
+                                            ? primarycolor
                                             : Color(0xfff2f5fc),
                                         borderRadius: BorderRadius.only(
                                           topLeft: Radius.circular(30),
@@ -468,7 +468,7 @@ class SignupdState extends State<Signupd> {
                                       decoration: BoxDecoration(
                                         color: Gender
                                             ? Color(0xfff2f5fc)
-                                            : Color(0xff00BED6),
+                                            : primarycolor,
                                         borderRadius: BorderRadius.only(
                                           topRight: Radius.circular(30),
                                           bottomRight: Radius.circular(30),
@@ -546,7 +546,7 @@ class SignupdState extends State<Signupd> {
                             Container(
                               width: 150,
                               decoration: BoxDecoration(
-                                color: Color(0xff00BED6),
+                                color: primarycolor,
                                 borderRadius: BorderRadius.circular(20),
                                 boxShadow: [
                                   BoxShadow(

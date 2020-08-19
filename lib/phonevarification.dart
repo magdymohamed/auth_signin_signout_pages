@@ -1,3 +1,4 @@
+import 'package:auth_signin_signout_pages/conestant.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_verification_code/flutter_verification_code.dart';
 
@@ -83,7 +84,7 @@ class PhonevarifyState extends State<Phonevarify> {
                               letterSpacing: 4,
                               fontFamily: 'cairo',
                               fontWeight: FontWeight.w900,
-                              color: Color(0xff00BED6)),
+                              color: primarycolor),
                         ),
                       ],
                     ),
@@ -110,7 +111,7 @@ class PhonevarifyState extends State<Phonevarify> {
                       ),
                       VerificationCode(
                         textStyle:
-                        TextStyle(fontSize: 30.0, color: Color(0xff0092A5)),
+                        TextStyle(fontSize: 30.0, color: primarycolor),
                         keyboardType: TextInputType.phone,
                         length: 4,
                         itemSize: 60,
@@ -145,7 +146,7 @@ class PhonevarifyState extends State<Phonevarify> {
                             Container(
                               width: 150,
                               decoration: BoxDecoration(
-                                color: Color(0xff00BED6),
+                                color: primarycolor,
                                 borderRadius: BorderRadius.circular(20),
                                 boxShadow: [
                                   BoxShadow(
@@ -177,7 +178,7 @@ class PhonevarifyState extends State<Phonevarify> {
                                 fontSize: 14,
                                 fontFamily: 'cairo',
                                 fontWeight: FontWeight.bold,
-                                color: Color(0xff0092A5),
+                                color: primarycolor,
                                 decoration: TextDecoration.underline,
                               )),
                           SizedBox(

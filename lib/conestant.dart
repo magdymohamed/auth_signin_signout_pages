@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 //general variable
 
 const URL = "http://arbawy.net/3rbawyapp/public/api/";
-const primarycolor = Color(0xff00BED6);
+const primarycolor = Color(0xff2d86c7);
 const seccolor = Color(0xfff2f5fc);
 const errorcolor = Colors.red;
 var rightcolor = Colors.green;
